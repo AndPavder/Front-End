@@ -1,0 +1,481 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #ffff;
+}
+
+a:active, a:focus {
+    outline: none;
+}
+
+input, textarea 
+{
+    outline:none;
+}
+
+input:active, textarea:active 
+{
+    outline:none;
+}
+
+:focus 
+{
+    outline:none;
+}
+
+textarea
+{
+    resize:none;
+}
+
+textarea 
+{
+    resize:vertical;
+}
+
+textarea 
+{
+    resize:horizontal;
+}
+
+.navigation
+{
+    width: 50%;
+    margin: auto;
+}
+
+.container
+{
+    display: inline-block;
+    padding: 0px 30px;
+    text-align: center;
+    background: #ffffff;
+    transition: all .5s;
+    cursor: pointer;
+    font: italic 19px/ 50px "Georgia";
+    text-align: center;
+    color:#304352;
+}
+
+.container:hover
+{
+    background: #304352;
+    color:#fff;
+}
+
+.navigation a
+{
+    font: italic 19px/ 50px "Georgia";
+    text-decoration: none;
+    color: #333333;
+    margin-left: -4px;
+}
+
+.phon
+{
+    z-index: 1;
+}
+
+
+h1
+{
+    text-align: left;
+    color: #333333;
+    font: bold 48px/ 42px "Open sans";
+    padding-top: 52px;
+}
+
+h2
+{
+    color: #333333;
+    font: 400 36px/ 42px "Open sans";
+    padding-top: 13px; 
+}
+blockquote{
+    color: #ffffff;
+    font: italic 28px/ 42px "Georgia";
+    margin-left: -3px;
+}
+
+.pic, .words
+{
+    float:left;
+    width: 39%; 
+    margin: 0 auto;
+}
+.words
+{
+    text-align: left;
+    margin-top: -8px;
+    margin-left: 35px;
+}
+
+.quote
+{
+    margin: -195px auto 0px;
+    width: 940px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.person
+{
+    font:bold 16px/ 42px "Open Sans";
+    color: #f5f5f5;
+    margin-top: -25px;
+}
+
+.main
+{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+.rect
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #304352; 
+}
+.sidebar, .first_info
+{
+    float:left;
+    width: 50%; 
+    margin: auto;
+}
+ol, ul
+{
+    padding-left:40px;
+}
+
+.first_info
+{
+    margin-top: -205px;
+    margin-left: -83px;
+}
+p
+{
+    color: #555555;
+    font: 19px/ 32px "georgia";
+}
+
+.simple_list
+{
+    margin-top:-10px;
+}
+
+.sidebar
+{
+    padding-top: 15px;
+}
+
+h3
+{
+    color: #304352;
+    font:700 22px/ 32px "open sans";
+    margin-top: 20px;
+}
+
+li
+{
+    color: #555555;
+    font: 19px/ 36px "georgia";
+    margin-left: -20px;
+}
+
+.hypertome
+{
+    margin-top: 45px;
+}
+.writeme
+{
+    color: #304352;
+    font: 400 19px/ 32px "Georgia"; 
+}
+
+.hypertome a:hover
+{
+    color: #1f8ca2;
+    transition: .4s;
+}
+
+.rarr
+{
+    text-decoration: none;
+    color: #304352;
+}
+
+
+.space
+{
+    clear: both; 
+    width: 1000px;
+    height: 50px;
+}
+
+.second_part
+{
+    width: 100%;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding-top:15px;
+}
+
+.second_part1
+{
+    width: 1220px;
+    margin:auto;
+    padding-left: 2px;
+}
+
+
+.blocks
+{
+    margin-top: -5px; 
+    margin-left: 10px;
+}
+
+.block
+{ 
+    vertical-align: top;
+    display: inline-block;
+    width: 23%;
+    margin: 0 auto;
+    margin: 10px;
+    text-align: left;
+}
+
+
+.second_part p
+{
+    font: 16px/ 28px "georgia";
+    margin-top:-8px;
+}
+
+.title_films
+{
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.fpic
+{
+    border-radius: 5px;
+    width: 285px;
+}
+
+.allfilmscontainer
+{
+    width: 220px;
+    margin: auto;
+    height: 50px;
+    padding-bottom: 60px;
+}
+
+.allfilms
+{
+    text-align: center;
+    background-color: #304352;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font: 19px/ 50px "georgia";
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.allfilms::before
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #1f8ca2;
+    border-radius: 5px;
+    top: 0;
+    left:-100%;
+    transition: .5s;
+    z-index: -1;
+}
+
+.allfilms:hover
+{
+    color:#ffff;
+}
+
+.allfilms:hover::before
+{
+    left:0;
+}
+
+.third_part
+{
+    width: 700px;
+    margin: auto;
+}
+
+.title3 
+{
+    overflow: hidden;
+    text-align: center;
+    font: 36px/ 42px "Open sans";
+    color: rgb(51,51,51);
+    padding-top: 45px;
+}
+
+.title3 span 
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title3:before,.title3:after
+{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(51,51,51);;
+    position: relative;
+}
+
+.title3:before 
+{
+    margin-left: -100%;
+    left: -15px;
+}
+
+.title3:after
+{
+    margin-right: -100%;
+    right: -15px;
+}
+
+.reg
+{
+    width: 540px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.reg_cont
+{
+    margin-bottom: 50px;
+    font: 20px/ 32px "Open Sans";
+    color: rgb(51,51,51);
+    overflow: hidden;
+}
+
+.reg_cont input, .reg_cont select
+{
+    width: 540px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #304352;
+    font: 18px/ 32px "Open Sans";
+    color: rgb(85,85,85);
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.reg_cont
+{
+    margin-bottom: 25px;
+}
+
+.reg span
+{
+    color:red;
+}
+
+.sex
+{
+    font: 20px/ 32px "Open Sans";
+    color: rgb(51,51,51);
+    padding-top: 23px;
+}
+
+.sex label 
+{
+    font: 18px/ 32px "Open Sans";
+    color: rgb(51,51,51);
+}
+
+.letter
+{
+    padding-top: 38px;
+}
+
+.letter textarea
+{
+    width: 550px;
+    height: 150px;
+    font: 18px/ 32px "Open Sans";
+    border-radius: 3px;
+    border: 2px solid #304352;
+    box-sizing: border-box;
+    padding-left: 20px;
+    resize: none;
+}
+
+.letter label
+{
+    font: 20px/ 32px "Open Sans";
+}
+
+.submit
+{
+    width: 220px;
+    height: 55px;
+    background-color: #304352;
+    border-radius: 5px ;
+    border-color: #fff;
+    font: 19px/ 50px "georgia";
+    color: #ffff;
+    text-align: center;
+    transition: .5s;
+}
+
+.send
+{
+    position: absolute;
+    padding: 50px 0px;
+}
+
+.submit:hover
+{
+    background: #1f8ca2;
+    cursor: pointer;
+}
+
+.reg input:focus , input:active, textarea:active,  textarea:focus, select:active, select:focus
+{
+    border-color: #1f8ca2;
+}
+
+.foooter 
+{
+    width: 100%; 
+    margin: auto;
+    background: #f9f9f9;
+    height: 70px;
+}
+
+.foootertext
+{
+    font: 16px/ 70px "Georgia";
+    color: rgb(85,85,85);
+    width: 17%;
+    margin: auto;
+}
+
+
+
+
