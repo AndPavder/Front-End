@@ -48,7 +48,7 @@ textarea
 .container
 {
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0 30px;
     text-align: center;
     background: #ffffff;
     transition: all .5s;
@@ -113,7 +113,7 @@ blockquote{
 
 .quote
 {
-    margin: -195px auto 0px;
+    margin: -195px auto 0;
     width: 940px;
     z-index: 2;
     position: relative;
@@ -446,7 +446,7 @@ li
 .send
 {
     position: absolute;
-    padding: 50px 0px;
+    padding: 50px 0;
 }
 
 .submit:hover

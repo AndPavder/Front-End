@@ -1,0 +1,193 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #ffff;
+}
+
+.first_part
+{
+   	padding-top:100px;
+}
+a:active, a:focus 
+{
+    outline: none;
+}
+
+input, textarea 
+{
+    outline:none;
+}
+
+input:active, textarea:active 
+{
+    outline:none;
+}
+
+:focus 
+{
+    outline:none;
+}
+
+textarea
+{
+    resize:none;
+}
+
+textarea 
+{
+    resize:vertical;
+}
+
+textarea 
+{
+    resize:horizontal;
+}
+
+
+h1
+{
+    text-align: left;
+    color: #333333;
+    font: bold 48px/ 42px "Open sans";
+}
+
+h2
+{
+    color: #333333;
+    font: 400 36px/ 42px "Open sans";
+    padding-top: 13px; 
+}
+blockquote
+{
+    color: rgb(132,132,132);
+    font: italic 28px/ 42px "Georgia";
+	margin-left: -20px;
+	margin-top:-20px;
+}
+
+.quotmark
+{
+	margin-top:55px;
+	margin-left:-80px;
+}
+
+.pic, .words
+{
+    float:left;
+    width: 50%; 
+    margin: 0 auto;
+}
+.words
+{
+	float:right;
+    text-align: left;
+    margin-top: -8px; 
+	
+}
+
+.quote
+{
+    margin:0 auto;
+    width: 940px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.person
+{
+    font:bold 16px/ 42px "Open Sans";
+    color: rgb(51,51,51);
+    margin-top: -27px;
+	margin-left: -20px;
+}
+
+.main
+{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+	padding-top: 5px;
+}
+.rect
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #304352; 
+}
+.sidebar, .first_info
+{
+    float:left;
+    width: 50%; 
+    margin: auto;
+}
+ol, ul
+{
+    padding-left:40px;
+}
+
+.first_info
+{
+    margin-left: -83px;
+}
+p
+{
+    color: #555555;
+    font: 19px/ 32px "georgia";
+}
+
+.simple_list
+{
+    margin-top:-10px;
+}
+
+.sidebar
+{
+    padding-top: 15px;
+}
+
+h3
+{
+    color: #304352;
+    font:700 22px/ 32px "open sans";
+    margin-top: 20px;
+}
+
+li
+{
+    color: #555555;
+    font: 19px/ 36px "georgia";
+    margin-left: -20px;
+}
+
+.hypertome
+{
+    margin-top: 45px;
+}
+.writeme
+{
+    color: #304352;
+    font: 400 19px/ 32px "Georgia";
+}
+
+.hypertome a:hover
+{
+    color: #1f8ca2;
+    transition: .4s;
+}
+
+.rarr
+{
+    text-decoration: none;
+    color: #304352;
+}
+
+
+.space
+{
+    clear: both; 
+    width: 1000px;
+    height: 50px;
+}
