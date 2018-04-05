@@ -1,3 +1,4 @@
+/* #15a98c */
 body
 {
     padding: 0;
@@ -7,8 +8,12 @@ body
 
 .first_part
 {
-   	padding-top:100px;
+    padding-top: 100px;
+    width: 960px;
+    margin: auto;
+    padding-bottom: 127px;
 }
+
 a:active, a:focus 
 {
     outline: none;
@@ -24,7 +29,7 @@ input:active, textarea:active
     outline:none;
 }
 
-:focus 
+textarea:focus 
 {
     outline:none;
 }
@@ -44,46 +49,29 @@ textarea
     resize:horizontal;
 }
 
-
-h1
+.pic
 {
-    text-align: left;
-    color: #333333;
-    font: bold 48px/ 42px "Open sans";
+    width:330px;
+    height:350px;
+    border-radius:5px
 }
 
-h2
+.words
 {
-    color: #333333;
-    font: 400 36px/ 42px "Open sans";
-    padding-top: 13px; 
+    width: 600px;
+    float:right;
 }
+
 blockquote
 {
     color: rgb(132,132,132);
     font: italic 28px/ 42px "Georgia";
-	margin-left: -20px;
-	margin-top:-20px;
 }
 
 .quotmark
 {
-	margin-top:55px;
-	margin-left:-80px;
-}
-
-.pic, .words
-{
-    float:left;
-    width: 50%; 
-    margin: 0 auto;
-}
-.words
-{
-	float:right;
-    text-align: left;
-    margin-top: -8px; 
-	
+    margin-top:50px;
+    padding-left: 50px;
 }
 
 .quote
@@ -95,99 +83,137 @@ blockquote
     overflow: hidden;
 }
 
+.text_of_qoute
+{
+    margin-top: -47px;
+    padding-left: 73px;
+}
+
 .person
 {
-    font:bold 16px/ 42px "Open Sans";
-    color: rgb(51,51,51);
-    margin-top: -27px;
-	margin-left: -20px;
+    font:600 16px/ 42px "Open Sans";
+    color: #333;
+    margin-top: -24px;
+    padding-left: 40px;
 }
 
 .main
 {
-    width: 960px;
+    width: 960px;   
     margin: 0 auto;
     text-align: left;
-	padding-top: 5px;
+    padding-top: 10px;
 }
-.rect
-{
-    width: 60px;
-    height: 6px;
-    border-radius: 3px;
-    background-color: #304352; 
-}
-.sidebar, .first_info
-{
-    float:left;
-    width: 50%; 
-    margin: auto;
-}
-ol, ul
-{
-    padding-left:40px;
-}
-
-.first_info
-{
-    margin-left: -83px;
-}
-p
-{
-    color: #555555;
-    font: 19px/ 32px "georgia";
-}
-
+ 
 .simple_list
 {
-    margin-top:-10px;
+    margin-top:-2px;
 }
 
-.sidebar
+h1
 {
-    padding-top: 15px;
-}
-
-h3
-{
-    color: #304352;
+    color: #15a98c;
     font:700 22px/ 32px "open sans";
-    margin-top: 20px;
+    margin-top: 19px;
 }
 
 li
 {
     color: #555555;
     font: 19px/ 36px "georgia";
-    margin-left: -20px;
+    margin-left: -18px;
+}
+
+.sidebar
+{
+    padding-top: 15px;
+    width: 390px;
+    padding-left: 10px;
+}
+
+.mults
+{
+    margin-top:42px;
+}
+
+.first_info
+{
+    width: 560px;
+    text-align: left;
+}
+
+.sidebar, .first_info
+{
+    float:left;
+    
+}
+
+ol, ul
+{
+    padding-left:40px;
+}
+
+h2
+{
+    text-align: left;
+    color: #333;
+    font: 700 48px/ 42px "Open sans";
+    margin-top: 35px;
+}
+
+.rectangle
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #15a98c;
+    margin-top: -10px;
+}
+
+p
+{
+    color: #555555;
+    font: 19px/ 32px "georgia";
+}
+
+.born
+{
+    padding-top: 25px;
+}
+
+h3
+{
+    color: #333;
+    font: 400 36px/ 42px "Open sans";
+    padding-top: 6px; 
+    margin-left: -3px;/*Небольшая подгонка*/
+}
+
+.hobby
+{
+    margin-top: -20px;
 }
 
 .hypertome
 {
-    margin-top: 45px;
+    margin-top: 43px;
 }
+
 .writeme
 {
-    color: #304352;
+    color: #15a98c;
     font: 400 19px/ 32px "Georgia";
-}
-
-.hypertome a:hover
-{
-    color: #1f8ca2;
-    transition: .4s;
-}
-
-.rarr
-{
     text-decoration: none;
-    color: #304352;
 }
 
-
-.space
+.writeme span
 {
-    clear: both; 
-    width: 1000px;
-    height: 50px;
+    text-decoration: underline;
 }
+
+.clear
+{
+    clear: both;
+}
+
+
