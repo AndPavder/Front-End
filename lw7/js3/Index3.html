@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>JS_1</title>
+  </head>
+  <body>
+    <script>
+      var str = prompt("Введите строку");
+      var strReversed = ""; // строка в обратном порядке
+        str = str.replace(/\s+/g, " ").trim()
+      for (i = str.length-1; i >= 0; i--) 
+      {
+        strReversed += str[i];
+      }
+      alert(strReversed);
+    </script>
+  </body>
+</html>
